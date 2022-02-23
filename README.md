@@ -15,8 +15,12 @@ LEVEL 1
 
 LEVEL 2
   - Make it work, then make it good
-  - prefer free functions
-  - design cohesive classes
-  - use structs to group data
-  - write small functions
+  - Prefer free functions
+  - Design cohesive classes
+  - Use structs to group data
+  - Write small functions
+  - DRY : don't repeat yourself
+  - Enums
+  - Split problems in small pieces
+  - Composition over Inheritance
 
