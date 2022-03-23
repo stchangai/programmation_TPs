@@ -1,7 +1,7 @@
 #include <iostream>
 #include <random>
+#include "../extLib/rand.hpp"
 #include "getIntFromUser.hpp"
-#include "rand.hpp"
 
 void playGuessTheNumber(int max)
 {

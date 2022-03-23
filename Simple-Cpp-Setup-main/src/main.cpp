@@ -1,9 +1,11 @@
 #include <iostream>
 #include <random>
+#include "./Hangman/playHangman.hpp"
 #include "./guessTheNumber/playGuessTheNumber.hpp"
+
 
 int main()
 {
-    playGuessTheNumber(10);
+    playHangman();
     return 0;
 }
