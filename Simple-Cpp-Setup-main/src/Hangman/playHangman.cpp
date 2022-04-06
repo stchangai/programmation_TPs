@@ -41,7 +41,7 @@ void playHangman()
     int         letterFoundCount = static_cast<int>(wordToGuess.length());
 
     FillResultWithDashAtBeginning(result, wordToGuess);
-    std::cout << wordToGuess << std::endl;
+    // std::cout << wordToGuess << std::endl;
     std::string lettersStocked;
     int         lives = 8;
     bool        isALetterFound;
