@@ -4,7 +4,7 @@
 #include "getLetterFromUser.hpp"
 #include "getWordToGuess.hpp"
 
-void FillResultWithDashAtBeginning(std::string& result, std::string wordToGuess)
+void FillResultWithDashAtBeginning(std::string& result, const std::string& wordToGuess)
 {
     for (size_t i = 0; i < wordToGuess.size(); i++) {
         result.push_back('_');
@@ -23,7 +23,7 @@ bool ReplaceLetterInWord(size_t& findLetterPos, char letterGivedByUser, std::str
     return isALetterFound;
 }
 
-void DisplayResultEndGame(int lives, std::string wordToGuess, std::string result)
+void DisplayResultEndGame(int lives, const std::string& wordToGuess, const std::string& result)
 {
     if (lives == 0) {
         std::cout << "you lose, sorry ! The word was " << wordToGuess << std::endl;
